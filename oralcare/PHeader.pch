@@ -1,0 +1,15 @@
+//
+//  PHeader.pch
+//  oralcare
+//
+//  Created by mhand on 15/3/1.
+//  Copyright (c) 2015年 Hangzhou Oralcare Technical Co.,Ltd. All rights reserved.
+//
+
+#ifndef oralcare_PHeader_pch
+#define oralcare_PHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
