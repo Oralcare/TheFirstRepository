@@ -149,7 +149,7 @@
     self.navigationController.hidesBarsWhenKeyboardAppears=YES;
     UIBlurEffect *blur=[UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
    LightCView=[[UIVisualEffectView alloc]initWithEffect:blur];
-    LightCView.frame=CGRectMake(0, 80,KSCREEM_WIDTH, KSCREEM_HEIGHT);
+    LightCView.frame=CGRectMake(0, 70,KSCREEM_WIDTH, KSCREEM_HEIGHT);
     UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(backAction:)];
     [tap setNumberOfTapsRequired:1];
     [tap setNumberOfTouchesRequired:1];
