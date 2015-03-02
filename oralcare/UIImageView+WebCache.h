@@ -8,6 +8,7 @@
 
 #import "SDWebImageCompat.h"
 #import "SDWebImageManager.h"
+
 /**
  * Integrates SDWebImage async downloading and caching of remote images with UIImageView.
  *
@@ -58,8 +59,8 @@
  *
  * @param url The url for the image.
  */
-//- (void)sd_setImageWithURL:(NSURL *)url;
 - (void)sd_setImageWithURL:(NSURL *)url;
+
 /**
  * Set the imageView `image` with an `url` and a placeholder.
  *

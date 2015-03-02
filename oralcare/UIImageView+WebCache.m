@@ -15,11 +15,11 @@ static char imageURLKey;
 @implementation UIImageView (WebCache)
 
 - (void)sd_setImageWithURL:(NSURL *)url {
-    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:nil completed:nil ];
+    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:nil completed:nil];
 }
 
 - (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder {
-    [self sd_setImageWithURL:url placeholderImage:placeholder options:0 progress:nil completed:nil ];
+    [self sd_setImageWithURL:url placeholderImage:placeholder options:0 progress:nil completed:nil];
 }
 
 - (void)sd_setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options {
@@ -55,8 +55,8 @@ static char imageURLKey;
             dispatch_main_sync_safe(^{
                 if (!wself) return;
                 if (image) {
-                    wself.image = image;
                     
+                    wself.image = image;
                     [wself setNeedsLayout];
                 } else {
                     if ((options & SDWebImageDelayPlaceholder)) {
